@@ -2,3 +2,5 @@
 
 # gretel-api
 node api for gretel app
+
+[on heroku](https://gretel-api.herokuapp.com/)
