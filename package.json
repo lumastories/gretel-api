@@ -1,0 +1,24 @@
+{
+  "name": "gretel-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:lumastories/gretel-api.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Nathan Nichols <nathann@ori.org>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^15.2.0",
+    "hapi-postgres-connection": "^6.1.0",
+    "hapi-swagger": "^7.4.0",
+    "inert": "^4.0.2",
+    "jest": "^16.0.2",
+    "joi": "^9.2.0",
+    "vision": "^4.1.0"
+  }
+}
