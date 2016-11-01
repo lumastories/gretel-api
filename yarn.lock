@@ -296,7 +296,7 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-boom@^4.0.0, boom@4.x.x:
+boom@^4.0.0, boom@^4.1.0, boom@4.x.x:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boom/-/boom-4.2.0.tgz#c1a74174b11fbba223f6162d4fd8851a1b82a536"
   dependencies:
@@ -807,6 +807,14 @@ hapi:
     subtext "^4.3.x"
     topo "2.x.x"
 
+hapi-auth-bearer-token:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/hapi-auth-bearer-token/-/hapi-auth-bearer-token-4.3.1.tgz#2c3bfaae92c7a6d5dbc5bcb81575eeebdbd87e05"
+  dependencies:
+    boom "^4.1.0"
+    hoek "^4.1.0"
+    joi "^9.1.0"
+
 hapi-postgres-connection:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/hapi-postgres-connection/-/hapi-postgres-connection-6.1.0.tgz#e3f602b57f188e398aaf6257f80c54dfbbd9265f"
@@ -861,7 +869,7 @@ heavy@4.x.x:
     hoek "4.x.x"
     joi "9.x.x"
 
-hoek@^4.0.1, hoek@4.x.x:
+hoek@^4.0.1, hoek@^4.1.0, hoek@4.x.x:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.1.0.tgz#4a4557460f69842ed463aa00628cc26d2683afa7"
 
@@ -1340,7 +1348,7 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
-joi, joi@9.x.x:
+joi, joi@^9.1.0, joi@9.x.x:
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/joi/-/joi-9.2.0.tgz#3385ac790192130cbe230e802ec02c9215bbfeda"
   dependencies:
